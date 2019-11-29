@@ -2189,7 +2189,7 @@ p {
 /*====================================================*/
 /*===== block-grid-area ====*/
 .block-grid-area {
-  padding: 70px 0px;
+  padding-bottom: 180px;
 }
 
 .block-grid-area .single-block-grid {
@@ -2516,7 +2516,7 @@ p {
 /*====================================================*/
 /*===== features area css =====*/
 .feature-area {
-  padding-bottom: 72px;
+  padding-bottom: 60px;
 }
 
 .feature-area .feature-item .feature-img {
