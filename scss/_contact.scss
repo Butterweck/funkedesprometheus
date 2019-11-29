@@ -1,0 +1,45 @@
+/* Contact form css
+============================================================================================ */
+.contact_area{
+    padding: 100px 0px 200px 0px;
+    .contact_form_area{
+        .form-group{
+            input{
+                height: 40px;
+                border: 1px solid $light-gray;
+                line-height: 40px;
+                border-radius: 0px;
+                color: #262624;
+                font-family: $loraFont;
+                font-size: 14px;
+                outline: none;
+                box-shadow: none;
+                @include placeholder{
+                    color: #262624;
+                    font-family: $loraFont;
+                    font-size: 14px;
+                }
+            }
+            textarea{
+                height: 200px;
+                border: 1px solid $light-gray;
+                line-height: 40px;
+                border-radius: 0px;
+                color: #262624;
+                font-family: $loraFont;
+                font-size: 14px;
+                outline: none;
+                box-shadow: none;
+                resize: none;
+                margin-bottom: 40px;
+                @include placeholder{
+                    color: #262624;
+                    font-family: $loraFont;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+/* End Contact form css
+============================================================================================ */
